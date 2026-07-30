@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Emily Quevedo - Portfolio</title>
+            <meta name="description" content="Portfólio de Emily Quevedo, desenvolvedora de backend.">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+
+        <header>
+            <div class="wrap nav">
+                <div class="logo">&lt;/EmilyQuevedo&gt;</div>
+                <nav class="nav-links" id="nav-links">
+                    <a href="#skills" class="i18n" data-pt="Habilidades" data-en="Skills">Habilidades</a>
+                    <a href="#projects" class="i18n" data-pt="Projetos" data-en="Projects">Projetos</a>
+                    <a href="#contact" class="i18n" data-pt="Contato" data-en="Contact">Contato</a>
+                </nav>
+                <div class="nav-ctrls">
+                    <button class="ctrl-btn" id="lang-toggle" type="button" aria-label="Switch language">🇧🇷</button>
+                    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Abrir menu">☰</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="wrap hero" id="home">
+            <div>
+                <h1 class="i18n" data-pt="Olá, eu sou a Emily Quevedo!" data-en="Hi, I'm Emily Quevedo!">Olá, eu sou a Emily Quevedo!</h1>
+                <p class="bio i18n"
+                    data-pt="Desenvolvedora Back-end, focada em criar soluções eficientes e escaláveis. 
+                    Busco sempre aprender novas tecnologias e aprimorar minhas habilidades para encontrar a melhor solução para cada desafio."
+                    data-en="Back-end Developer focused on building efficient and scalable solutions. 
+                    Constantly seeking to learn new technologies and improve my skills to find the best solution for every challenge">
+                    Desenvolvedora Back-end, focada em criar soluções eficientes e escaláveis. 
+                    Busco sempre aprender novas tecnologias e aprimorar minhas habilidades para encontrar a melhor solução para cada desafio.
+                </p>
+                <div class="tags">
+                    <span class="tag coral i18n" 
+                        data-pt="Análise e Desenvolvimento de Sistemas - IFRS" 
+                        data-en="Systems Analysis and Development - IFRS">
+                        Análise e Desenvolvimento de Sistemas - IFRS
+                    </span>
+                    <span class="tag olive i18n" 
+                        data-pt="Java — Geração Caldeira" 
+                        data-en="Java — Geração Caldeira">
+                        Java — Geração Caldeira
+                    </span>
+                    <span class="tag lavender i18n" 
+                        data-pt="Téc. em Informática - QI" 
+                        data-en="IT Technician - QI">
+                        Téc. em Informática - QI
+                    </span>
+                    <span class="tag coral i18n" 
+                        data-pt="Digitalization Portfolio - SAP" 
+                        data-en="Digitalization Portfolio - SAP">
+                        Digitalization Portfolio - SAP
+                    </span>
+                    <span class="tag olive i18n" 
+                        data-pt="Residência Fullstack — Instituto Eldorado" 
+                        data-en="Full Stack Residency — Instituto Eldorado">
+                        Residência Fullstack — Instituto Eldorado
+                    </span>
+                </div>
+                <a class="cv-btn i18n" 
+                    href="EmilyQuevedo_pt_CV.pdf" 
+                    target="_blank" 
+                    rel="noopener" 
+                    data-pt="Baixar CV" 
+                    data-en="Download CV"
+                    data-href-pt="EmilyQuevedo_pt_CV.pdf" 
+                    data-href-en="EmilyQuevedo_en_CV.pdf"
+                    id="botao-cv">
+                    Baixar CV
+                </a>
+            </div>
+           <img class="hero-photo" src="fotoportfolio.jpeg" alt="Foto de Emily Quevedo" />
+        </section>
+
+        <div class="brand-divider">&lt;/EmilyQuevedo&gt;</div>
+
+        <!-- ================= SKILLS ================= -->
+        <section class="wrap" id="skills">
+            <h2 class="section-title i18n" data-pt="Habilidades" data-en="Skills">Habilidades</h2>
+            <div class="skills-layout">
+                <div class="skill-filters" id="skill-filters">
+                <button class="active" data-filter="todos">
+                    <span class="i18n" data-pt="Todos" data-en="All">Todos</span>
+                </button>
+                <button data-filter="backend"><span class="i18n" data-pt="Backend" data-en="Backend">Backend</span></button>
+                <button data-filter="frontend"><span class="i18n" data-pt="Frontend" data-en="Frontend">Frontend</span></button>
+                <button data-filter="banco"><span class="i18n" data-pt="Banco de dados" data-en="Databases">Banco de dados</span></button>
+                <button data-filter="ferramentas"><span class="i18n" data-pt="Ferramentas" data-en="Tools">Ferramentas</span></button>
+                <button data-filter="automacao"><span class="i18n" data-pt="Automação" data-en="Automation">Automação</span></button>
+                </div>
+                <div class="skills-grid" id="skills-grid">
+                    <div class="skill-card" data-category="backend"><div class="skill-icon"></div><span class="name">Java</span></div>
+                    <div class="skill-card" data-category="backend"><div class="skill-icon"></div><span class="name">Python</span></div>
+                    <div class="skill-card" data-category="backend"><div class="skill-icon"></div><span class="name">PHP</span></div>
+                    <div class="skill-card" data-category="backend"><div class="skill-icon"></div><span class="name">C</span></div>
+                    <div class="skill-card" data-category="frontend"><div class="skill-icon"></div><span class="name">HTML/CSS</span></div>
+                    <div class="skill-card" data-category="frontend"><div class="skill-icon"></div><span class="name">JavaScript</span></div>
+                    <div class="skill-card" data-category="frontend"><div class="skill-icon"></div><span class="name">React</span></div>
+                    <div class="skill-card" data-category="frontend"><div class="skill-icon"></div><span class="name">Flutter</span></div>
+                    <div class="skill-card" data-category="banco"><div class="skill-icon"></div><span class="name">PostgreSQL</span></div>
+                    <div class="skill-card" data-category="banco"><div class="skill-icon"></div><span class="name">MySQL</span></div>
+                    <div class="skill-card" data-category="ferramentas"><div class="skill-icon"></div><span class="name">Git</span></div>
+                    <div class="skill-card" data-category="ferramentas"><div class="skill-icon"></div><span class="name">GitHub</span></div>
+                    <div class="skill-card" data-category="ferramentas"><div class="skill-icon"></div><span class="name">Postman</span></div>
+                    <div class="skill-card" data-category="automacao"><div class="skill-icon"></div><span class="name">N8N</span></div>
+                    <div class="skill-card" data-category="automacao"><div class="skill-icon"></div><span class="name">Hubspot Workflows</span></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="brand-divider"></div>
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="wrap" id="projects">
+        <h2 class="section-title i18n" data-pt="Projetos" data-en="Projects">Projetos</h2>
+        <div class="carousel-wrap">
+            <button class="carousel-btn prev" id="carousel-prev" aria-label="Anterior">←</button>
+            <div class="carousel" id="carousel">
+
+            <article class="project-card">
+                <div class="project-thumb i18n" data-pt="[ imagem do projeto ]" data-en="[ project image ]">[ imagem do projeto ]</div>
+                <div class="project-body">
+                <h3 class="i18n" data-pt="Título do projeto 1" data-en="Project title 1">Título do projeto 1</h3>
+                <p class="i18n" data-pt="Descreva em 1-2 frases o que o projeto faz e o resultado alcançado." data-en="Describe in 1-2 sentences what the project does and the result achieved.">Descreva em 1-2 frases o que o projeto faz e o resultado alcançado.</p>
+                <div class="project-links">
+                    <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ código" data-en="→ code">→ código</a>
+                    <a href="#" target="_blank" rel="noopener">→ demo</a>
+                </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-thumb i18n" data-pt="[ imagem do projeto ]" data-en="[ project image ]">[ imagem do projeto ]</div>
+                <div class="project-body">
+                <h3 class="i18n" data-pt="Título do projeto 2" data-en="Project title 2">Título do projeto 2</h3>
+                <p class="i18n" data-pt="Contexto, seu papel no projeto e o que aprendeu de mais interessante." data-en="Context, your role in the project, and the most interesting thing you learned.">Contexto, seu papel no projeto e o que aprendeu de mais interessante.</p>
+                <div class="project-links">
+                    <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ código" data-en="→ code">→ código</a>
+                    <a href="#" target="_blank" rel="noopener">→ demo</a>
+                </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-thumb i18n" data-pt="[ imagem do projeto ]" data-en="[ project image ]">[ imagem do projeto ]</div>
+                <div class="project-body">
+                <h3 class="i18n" data-pt="Título do projeto 3" data-en="Project title 3">Título do projeto 3</h3>
+                <p class="i18n" data-pt="Pode ser um projeto pessoal, acadêmico ou open source. Foque no impacto." data-en="Can be a personal, academic, or open-source project. Focus on the impact.">Pode ser um projeto pessoal, acadêmico ou open source. Foque no impacto.</p>
+                <div class="project-links">
+                    <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ código" data-en="→ code">→ código</a>
+                    <a href="#" target="_blank" rel="noopener">→ demo</a>
+                </div>
+                </div>
+            </article>
+
+            </div>
+            <button class="carousel-btn next" id="carousel-next" aria-label="Próximo">→</button>
+        </div>
+        </section>
+
+        <div class="brand-divider"></div>
+
+        <section class="wrap" id="contact">
+        <h2 class="section-title i18n" data-pt="Contato" data-en="Contact">Contato</h2>
+        <div class="contact-links">
+            <a class="underline" href="mailto:emilyqdrosa@gmail.com">emilyqdrosa@gmail.com</a>
+            <a href="https://www.linkedin.com/in/emily-quevedo/" target="_blank" rel="noopener">www.linkedin.com/in/emily-quevedo</a>
+            <a href="https://github.com/emilyqdrosa" target="_blank" rel="noopener">www.github.com/emilyqdrosa</a>
+        </div>
+        </section>
+
+        <footer>&lt;/EmilyQuevedo&gt;</footer>
+
+        <button class="to-top" id="to-top" aria-label="Voltar ao topo">↑</button>
+
+        <script>
+        /* ---- mobile nav toggle ---- */
+        const navToggle = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+        navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+        navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+        /* ---- language toggle ---- */
+        const langBtn = document.getElementById('lang-toggle');
+        const i18nEls = document.querySelectorAll('.i18n');
+        function applyLang(lang){
+            document.documentElement.lang = lang === 'en' ? 'en' : 'pt-BR';
+            i18nEls.forEach(el => {
+                const value = el.getAttribute('data-' + lang);
+                if(value !== null) el.textContent = value;
+
+                const hrefValue = el.getAttribute('data-href-' + lang);
+                if(hrefValue !== null) el.setAttribute('href', hrefValue);
+            });
+            langBtn.textContent = lang === 'en' ? '🇺🇸' : '🇧🇷';
+        }
+        const savedLang = localStorage.getItem('portfolio-lang') || 'pt';
+        applyLang(savedLang);
+        langBtn.addEventListener('click', () => {
+            const current = document.documentElement.lang === 'en' ? 'en' : 'pt';
+            const next = current === 'en' ? 'pt' : 'en';
+            applyLang(next);
+            localStorage.setItem('portfolio-lang', next);
+        });
+
+        /* ---- skills filter ---- */
+        const filterBtns = document.querySelectorAll('#skill-filters button');
+        const skillCards = document.querySelectorAll('#skills-grid .skill-card');
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            const filter = btn.dataset.filter;
+            skillCards.forEach(card => {
+                card.style.display = (filter === 'todos' || card.dataset.category === filter) ? 'flex' : 'none';
+            });
+            });
+        });
+
+        /* ---- projects carousel ---- */
+        const carousel = document.getElementById('carousel');
+        const prevBtn = document.getElementById('carousel-prev');
+        const nextBtn = document.getElementById('carousel-next');
+        function scrollByCard(dir){
+            const card = carousel.querySelector('.project-card');
+            const amount = card ? card.offsetWidth + 20 : 300;
+            carousel.scrollBy({ left: dir * amount, behavior: 'smooth' });
+        }
+        prevBtn.addEventListener('click', () => scrollByCard(-1));
+        nextBtn.addEventListener('click', () => scrollByCard(1));
+
+        /* ---- back to top ---- */
+        const toTop = document.getElementById('to-top');
+        window.addEventListener('scroll', () => {
+            toTop.classList.toggle('show', window.scrollY > 500);
+        });
+        toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+        </script>
+
+    </body>
+</html>

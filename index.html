@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
 </head>
 <body>
 
@@ -125,100 +126,55 @@
     <div class="carousel-wrap">
         <button class="carousel-btn prev" id="carousel-prev" aria-label="Anterior">←</button>
         <div class="carousel" id="carousel">
-
-        <article class="project-card">
-            <div class="project-body">
-                <h3 class="i18n" data-pt="Gestão Financeira" data-en="Financial Management">Gestão Financeira</h3>
-                <p class="i18n"
-                    data-pt="Solução para um desafio da Residência Fullstack, um banco de dados para registro e organização de gastos pessoais."
-                    data-en="Solution for a Full Stack Residency challenge, a database for recording and organizing personal expenses.">
-                    Solução para um desafio da Residência Fullstack, um banco de dados para registro e organização de gastos pessoais.
-                </p>
-                <div class="project-divider"></div>
-                <div class="project-stack">
-                    <span>PostgreSQL</span>
+            <article class="project-card">
+                <div class="project-body">
+                    <h3 class="i18n" data-pt="Gestão Financeira" data-en="Financial Management">Gestão Financeira</h3>
+                    <p class="i18n"
+                        data-pt="Solução para um desafio da Residência Fullstack, um banco de dados para registro e organização de gastos pessoais."
+                        data-en="Solution for a Full Stack Residency challenge, a database for recording and organizing personal expenses.">
+                        Solução para um desafio da Residência Fullstack, um banco de dados para registro e organização de gastos pessoais.
+                    </p>
+                    <div class="project-divider"></div>
+                    <div class="project-stack">
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ Repositório" data-en="→ Repository">→ Repositório</a>
+                    </div>
                 </div>
-                <div class="project-links">
-                    <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ Repositório" data-en="→ Repository">→ Repositório</a>
-                </div>
-            </div>
-            <!-- conteúdo completo, mostrado apenas dentro do popup -->
-            <div class="project-detail" hidden>
-                <h3>Gestão Financeira</h3>
-                <p>
-                    Solução para um desafio da Residência Fullstack, um banco de dados para registro e organização de gastos pessoais. <br><br>
-                    Comecei o projeto criando um diagrama conceitual e lógico, no momento que estava estruturando o banco e adicionando valores a ela, percebi a necessidade de triggers. <br><br>
-                    Então, o diferencial desse projeto são seus triggers: 
-                </p>
-                <ul class="project-highlights">
-                        <li><strong>Validação de Pagamentos:</strong> impede o registro no banco se a soma dos pagamentos por forma de pagamento diferente não for exatamente igual ao valor total da compra.</li>
-                        <li><strong>Débito Automático:</strong> confere se o usuário tem saldo antes da compra. Se tiver, desconta o valor automaticamente; se não, bloqueia a operação.</li>
+                
+                <div class="project-detail" hidden>
+                    <h3 class="i18n" data-pt="Gestão Financeira" data-en="Financial Management">Gestão Financeira</h3>
+                    
+                    <p class="i18n" 
+                    data-pt="Solução para um desafio da Residência Fullstack, um banco de dados para registro e organização de gastos pessoais. <br><br> Comecei o projeto criando um diagrama conceitual e lógico, no momento que estava estruturando o banco e adicionando valores a ela, percebi a necessidade de triggers. <br><br> Então, o diferencial desse projeto são seus <strong>triggers</strong>:" 
+                    data-en="Solution for a Full Stack Residency challenge, a database for recording and organizing personal expenses. <br><br> I started the project by creating a conceptual and logical diagram. While structuring the database and adding values to it, I realized the need for triggers. <br><br> Therefore, the standout feature of this project are its <strong>triggers</strong>:">
+                        Solução para um desafio da Residência Fullstack, um banco de dados para registro e organização de gastos pessoais. <br><br>
+                        Comecei o projeto criando um diagrama conceitual e lógico, no momento que estava estruturando o banco e adicionando valores a ela, percebi a necessidade de triggers. <br><br>
+                        Então, o diferencial desse projeto são seus <strong>triggers</strong>: 
+                    </p>
+                    
+                    <ul class="project-highlights">
+                        <li class="i18n" 
+                            data-pt="<strong>Validação de Pagamentos:</strong> impede o registro no banco se a soma dos pagamentos por forma de pagamento diferente não for exatamente igual ao valor total da compra." 
+                            data-en="<strong>Payment Validation:</strong> prevents saving to the database if the sum of payments from different payment methods does not exactly equal the total purchase amount.">
+                            <strong>Validação de Pagamentos:</strong> impede o registro no banco se a soma dos pagamentos por forma de pagamento diferente não for exatamente igual ao valor total da compra.
+                        </li>
+                        <li class="i18n" 
+                            data-pt="<strong>Débito Automático:</strong> confere se o usuário tem saldo antes da compra. Se tiver, desconta o valor automaticamente; se não, bloqueia a operação." 
+                            data-en="<strong>Automatic Debit:</strong> checks if the user has enough balance before the purchase. If they do, it automatically deducts the amount; if not, it blocks the operation.">
+                            <strong>Débito Automático:</strong> confere se o usuário tem saldo antes da compra. Se tiver, desconta o valor automaticamente; se não, bloqueia a operação.
+                        </li>
                     </ul>
-                <!-- <img src="assets/images/gestao-financeira-1.png" alt="Tela do projeto Gestão Financeira"> -->
-                <div class="project-stack">
-                    <span>PostgreSQL</span>
+                    
+                    <div class="project-stack">
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ Repositório" data-en="→ Repository">→ Repositório</a>
+                    </div>
                 </div>
-                <div class="project-links">
-                    <a href="#" target="_blank" rel="noopener">→ Repositório</a>
-                </div>
-            </div>
-        </article>
-
-        <!--
-        <article class="project-card">
-            <div class="project-body">
-                <h3 class="i18n" data-pt="Título do projeto 2" data-en="Project title 2">Título do projeto 2</h3>
-                <p class="i18n" data-pt="Contexto, seu papel no projeto e o que aprendeu de mais interessante." data-en="Context, your role in the project, and the most interesting thing you learned.">Contexto, seu papel no projeto e o que aprendeu de mais interessante.</p>
-                <div class="project-divider"></div>
-                <div class="project-stack">
-                    <span>Python</span><span>FastAPI</span><span>Docker</span>
-                </div>
-                <div class="project-links">
-                    <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ código" data-en="→ code">→ código</a>
-                    <a href="#" target="_blank" rel="noopener">→ demo</a>
-                </div>
-            </div>
-            <div class="project-detail" hidden>
-                <h3>Título do projeto 2</h3>
-                <p>Descrição completa do projeto 2: contexto, seu papel, desafios técnicos e resultado.</p>
- <img src="assets/images/projeto2-1.png" alt="Tela do projeto 2"> 
-                <div class="project-stack">
-                    <span>Python</span><span>FastAPI</span><span>Docker</span>
-                </div>
-                <div class="project-links">
-                    <a href="#" target="_blank" rel="noopener">→ código</a>
-                    <a href="#" target="_blank" rel="noopener">→ demo</a>
-                </div>
-            </div>
-        </article>
-
-        <article class="project-card">
-            <div class="project-body">
-                <h3 class="i18n" data-pt="Título do projeto 3" data-en="Project title 3">Título do projeto 3</h3>
-                <p class="i18n" data-pt="Pode ser um projeto pessoal, acadêmico ou open source. Foque no impacto." data-en="Can be a personal, academic, or open-source project. Focus on the impact.">Pode ser um projeto pessoal, acadêmico ou open source. Foque no impacto.</p>
-                <div class="project-divider"></div>
-                <div class="project-stack">
-                    <span>TypeScript</span><span>Next.js</span>
-                </div>
-                <div class="project-links">
-                    <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ código" data-en="→ code">→ código</a>
-                    <a href="#" target="_blank" rel="noopener">→ demo</a>
-                </div>
-            </div>
-            <div class="project-detail" hidden>
-                <h3>Título do projeto 3</h3>
-                <p>Descrição completa do projeto 3: pode ser algo pessoal, acadêmico ou open source. Foque no impacto e nas decisões técnicas.</p>
-<img src="assets/images/projeto3-1.png" alt="Tela do projeto 3"> 
-                <div class="project-stack">
-                    <span>TypeScript</span><span>Next.js</span>
-                </div>
-                <div class="project-links">
-                    <a href="#" target="_blank" rel="noopener">→ código</a>
-                    <a href="#" target="_blank" rel="noopener">→ demo</a>
-                </div>
-            </div>
-        </article-->
-
+            </article>
         </div>
         <button class="carousel-btn next" id="carousel-next" aria-label="Próximo">→</button>
     </div>
@@ -261,7 +217,7 @@
         document.documentElement.lang = lang === 'en' ? 'en' : 'pt-BR';
         i18nEls.forEach(el => {
             const value = el.getAttribute('data-' + lang);
-            if(value !== null) el.textContent = value;
+            if(value !== null) el.innerHTML = value;
 
             const hrefValue = el.getAttribute('data-href-' + lang);
             if(hrefValue !== null) el.setAttribute('href', hrefValue);
